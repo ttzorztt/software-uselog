@@ -7,7 +7,22 @@
 - Markdown PDF
     Sometimes you want to convert markdown to pdf, you will use the browser to open makedown and save it as pdf, but in vscode, you only need a plug-in which is Markdown PDF, this plug-in can be saved as ".png", ".html", " pdf" ","jpeg", but if you use this plugin, you know that this plugin first makes makedown save as html, and second, it makes html save as pdf.
 - Markdown Preview Enhanced
-    
+   This plugin can easily display the pdf made by markdown, which is very important in our use. You can see some modifications in this file.
+- Extension Pack for Java
+    include some plugin, such as 
+    - Language Support for Java(TM) by Red Hat,
+    - Debugger for Java
+        I think this plugin may be used in Debug, but I rarely use debug. Maybe I'm not a good programmer.
+    - Test Runner for Java
+    - Maven for Java
+        Maven can manage packages
+    - Project Manager for Java
+    - Visual Studio IntelliCode
+    - AI-assisted development
+- python
+    If you want write python file, maybe you need highlighting and code hinting, so you need this plugin,
+- c/c++
+    this plugin can provide highlighting and code hinting. 
 #  VS-CODE-USELOG #
 ## permissions errer ##
 - **Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.**
