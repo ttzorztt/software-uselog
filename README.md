@@ -1,36 +1,47 @@
-#  VS-CODE-SETTING #
-## plugin ##
+# VS-CODE-SETTING
+
+## plugin
+
 - Code Runner
-    this plugin can run your code easily, and if you install this plugin, your right-top menu whill show a shape that like triangle, you chick this shape, vs code will according to your file suffix to use can run this language compiler or interpreter. so this plugin is important in your running.
+  this plugin can run your code easily, and if you install this plugin, your right-top menu whill show a shape that like triangle, you chick this shape, vs code will according to your file suffix to use can run this language compiler or interpreter. so this plugin is important in your running.
 - LaTex Workshop
-    If you have texlive, use vs-code instead of texstudio, I think you will be intimidated by this plugin, it can show you some latex symbols, as well as code highlighting and code hinting, but I think it has one drawback of mine. AutoBuild, this plugin will rebuild if you change the tex file, you can stop it by setting.
+  If you have texlive, use vs-code instead of texstudio, I think you will be intimidated by this plugin, it can show you some latex symbols, as well as code highlighting and code hinting, but I think it has one drawback of mine. AutoBuild, this plugin will rebuild if you change the tex file, you can stop it by setting.
 - Markdown PDF
-    Sometimes you want to convert markdown to pdf, you will use the browser to open makedown and save it as pdf, but in vscode, you only need a plug-in which is Markdown PDF, this plug-in can be saved as ".png", ".html", " pdf" ","jpeg", but if you use this plugin, you know that this plugin first makes makedown save as html, and second, it makes html save as pdf.
+  Sometimes you want to convert markdown to pdf, you will use the browser to open makedown and save it as pdf, but in vscode, you only need a plug-in which is Markdown PDF, this plug-in can be saved as ".png", ".html", " pdf" ","jpeg", but if you use this plugin, you know that this plugin first makes makedown save as html, and second, it makes html save as pdf.
 - Markdown Preview Enhanced
-   This plugin can easily display the pdf made by markdown, which is very important in our use. You can see some modifications in this file.
+  This plugin can easily display the pdf made by markdown, which is very important in our use. You can see some modifications in this file.
 - Extension Pack for Java
-    include some plugin, such as 
-    - Language Support for Java(TM) by Red Hat,
-    - Debugger for Java
-        I think this plugin may be used in Debug, but I rarely use debug. Maybe I'm not a good programmer.
-    - Test Runner for Java
-    - Maven for Java
-        Maven can manage packages
-    - Project Manager for Java
-    - Visual Studio IntelliCode
-    - AI-assisted development
+  include some plugin, such as
+  - Language Support for Java(TM) by Red Hat,
+  - Debugger for Java
+    I think this plugin may be used in Debug, but I rarely use debug. Maybe I'm not a good programmer.
+  - Test Runner for Java
+  - Maven for Java
+    Maven can manage packages
+  - Project Manager for Java
+  - Visual Studio IntelliCode
+  - AI-assisted development
 - python
-    If you want write python file, maybe you need highlighting and code hinting, so you need this plugin,
+  If you want write python file, maybe you need highlighting and code hinting, so you need this plugin,
 - c/c++
-    this plugin can provide highlighting and code hinting. 
-#  VS-CODE-USELOG #
-## permissions errer ##
+  this plugin can provide highlighting and code hinting.
+- Excel Viewer
+  if you want to read Excel file, you should install this plugin, this plugin is just like its name.
+- HTML Format
+  sometime you want to write HTML, but you know formatting is problem, html syntax is complicated. this plugin can makes it easy.
+
+# VS-CODE-USELOG
+
+## permissions errer
+
 - **Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.**
-    This means you don't have enough permissions to save this file, you should check if this file was created by you, if you didn't create this file, you won't be able to change this file. And you can use like this:
-    ```shell
-    sudo chmod -R 777 [dir]
-    ```
-    This action allows other users to change the directory.
-## python errer ##
+  This means you don't have enough permissions to save this file, you should check if this file was created by you, if you didn't create this file, you won't be able to change this file. And you can use like this:
+  ```shell
+  sudo chmod -R 777 [dir]
+  ```
+  This action allows other users to change the directory.
+
+## python errer
+
 - **nconsistent use of tabs and spaces in indentationPylance**
-Because you used spaces and tabs at the same times,but python don't allow you use simultaneously space and tabs,so you can use tab all the time or only use space, and you can click menu like View, then you can select Render Whitespace, this menu can render space and tabs, so you can easy to diffence them, and save this problem
+  Because you used spaces and tabs at the same times,but python don't allow you use simultaneously space and tabs,so you can use tab all the time or only use space, and you can click menu like View, then you can select Render Whitespace, this menu can render space and tabs, so you can easy to diffence them, and save this problem
