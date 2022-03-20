@@ -32,6 +32,31 @@
 
 # VS-CODE-USELOG
 
+## language ##
+if you want to used chinese, you should :
+- install plugin which named "Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code"
+- used hotkey "Ctrl + shift + p"
+- input "Dsiplay language"
+- choose zh-cn or you alse can choose en
+
+## setting snippets ##
+
+* Ctrl+shift+p
+* choice preferences: "configure user Snippets"
+* you should input your language as file name.
+  
+```json
+	 // Example:
+	  "Print to console": {
+	 	"scope": "javascript,typescript",
+	 	"prefix": "log",
+	 	"body": [
+	 		"console.log('$1');",
+	 		"$2"
+	 	],
+	 	"description": "Log output to console"
+	```
+
 ## permissions errer
 
 - **Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.**
