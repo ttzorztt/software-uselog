@@ -55,7 +55,7 @@ if you want to used chinese, you should :
 	 		"$2"
 	 	],
 	 	"description": "Log output to console"
-	```
+```
 
 ## permissions errer
 
