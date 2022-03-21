@@ -57,6 +57,73 @@ if you want to used chinese, you should :
 	 	"description": "Log output to console"
 ```
 
+## markdown ##
+- some Latex symbols
+  you can used markdown to record some note, like math formula, and you want to used latex symbols, used like ”$ $“ can let vs-code show math formula. you can View, but if you want to print the pdf file, you should modify some setting file 
+  ```shell
+  sudo gedit ~/.vscode/extensions/yzane.markdown-pdf-1.4.4/template
+  ```
+  and you should input Ctrl + Shift + P and choice "> **Markdown Preview Enhanced: Run Code Chunk** " to source this setting file,  then , you can print to PDF
+
+- Align left or Align right
+  ```markdown
+  <p align="right"> </p>
+  ```
+
+- remove header (some word in paper top)
+  you need to find some setting in vs-code , you can search "Display Header Footer", and chick it. 
+  
+- markdown to print flow chart
+  - like
+    ```text
+      ```mermaid
+      graph TD;
+    ```
+  - some Attributes
+    - TB	top to bottom
+    - BT	bottom to top
+    - RL	right to left
+    - LR	left to right
+  - some graphics setting
+    - define is rectangle
+    - the rectangle which border is circle
+    ```markdown
+    lab(word)
+    ``` 
+    - circle
+    ```markdown
+    lab((word))
+    ```
+    - diamond
+    ```markdown
+    lab{word}
+    ```
+    - Hexagon
+    ```markdown
+    lab{{word}}
+    ```
+    - Parallelogram
+      - left to right
+      ```markdown
+	    lab[/word/]
+      ```
+      - right to left
+      ```markdown
+      lab[\word\]
+      ```
+    - some line
+      - define is line which have arrow
+      - only line
+      ```markdown
+      labA -- labB
+      ```
+      - point and point
+      ```markdown
+      labA -.- labB
+      ```
+      - bold line
+      ```markdown
+      labA ==> labB
 ## permissions errer
 
 - **Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.**
