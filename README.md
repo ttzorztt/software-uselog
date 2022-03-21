@@ -124,6 +124,7 @@ if you want to used chinese, you should :
       - bold line
       ```markdown
       labA ==> labB
+      ```
 ## permissions errer
 
 - **Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.**
