@@ -10,6 +10,8 @@
   Sometimes you want to convert markdown to pdf, you will use the browser to open makedown and save it as pdf, but in vscode, you only need a plug-in which is Markdown PDF, this plug-in can be saved as ".png", ".html", " pdf" ","jpeg", but if you use this plugin, you know that this plugin first makes makedown save as html, and second, it makes html save as pdf.
 - Markdown Preview Enhanced
   This plugin can easily display the pdf made by markdown, which is very important in our use. You can see some modifications in this file.
+- Markdown All in One
+  use markdown symbols,and if you want used latex symbols in your makdown file when you want to convert makedown to pdf, you must used this plugin, because this plug can let markdown pdf know latex symbols. 
 - Extension Pack for Java
   include some plugin, such as
   - Language Support for Java(TM) by Red Hat,
@@ -59,11 +61,18 @@ if you want to used chinese, you should :
 
 ## markdown ##
 - some Latex symbols
-  you can used markdown to record some note, like math formula, and you want to used latex symbols, used like ”$ $“ can let vs-code show math formula. you can View, but if you want to print the pdf file, you should modify some setting file 
-  ```shell
-  sudo gedit ~/.vscode/extensions/yzane.markdown-pdf-1.4.4/template
-  ```
-  and you should input Ctrl + Shift + P and choice "> **Markdown Preview Enhanced: Run Code Chunk** " to source this setting file,  then , you can print to PDF
+  - install plugin that named "Markdown All in One"
+    it can let your vscode know "latex symbols" in your markdown file.
+  - setting
+    you can used markdown to record some note, like math formula, and you want to used latex symbols, used like ”$ $“ can let vs-code show math formula. you can View, but if you want to print the pdf file, you should modify some setting file 
+    ```shell
+      sudo gedit ~/.vscode/extensions/yzane.markdown-pdf-1.4.4/template/template.html
+    ```
+    ```html
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
+    ```
+    and you should input Ctrl + Shift + P and choice "> **Markdown Preview Enhanced: Run Code Chunk** " to source this setting file,  then , you can print to PDF
 
 - Align left or Align right
   ```markdown
