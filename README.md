@@ -62,6 +62,16 @@ if you want to used chinese, you should :
 	 	"description": "Log output to console"
 ```
 
+### markdown print pdf
+- add this command in 
+```shell
+sudo vim ~/.vscode/extensions/yzane.markdown-pdf-X.X.X/template/template.html # Tip: alter the version
+```
+```html
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
+```
+
 ### permissions errer ###
 - **Insufficient permissions. Select 'Retry as Sudo' to retry as superuser.**
   This means you don't have enough permissions to save this file, you should check if this file was created by you, if you didn't create this file, you won't be able to change this file. And you can use like this:
