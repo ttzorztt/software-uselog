@@ -62,6 +62,20 @@ if you want to used chinese, you should :
 	 	"description": "Log output to console"
 ```
 
+### markdown can't used snippets ###
+add this command in the "setting.json"
+```json
+    "[markdown]": {
+        "editor.quickSuggestions":{
+            "other": true,
+            "comments": true,
+        }
+    }
+```
+
+### can't use snippets in other snippets 
+in the setting, you can search "Editor › Suggest: Snippets Prevent Quick Suggestions", and check it, make true this option is false.
+
 ### markdown print pdf
 - add this command in 
 ```shell
