@@ -35,7 +35,8 @@
 
 - Rainbow Fart
   you will like it
-
+- Draw.io Integration
+  this plugin can let you easy to draw flowchart, you don't used makrdown to draw it.
 ## VS-CODE-USELOG ##
 ###  language ###
 if you want to used chinese, you should :
